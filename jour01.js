@@ -19,3 +19,13 @@ console.log("Nice to meet you" + " " + name)
 var testlength = "I'm very long !"
 
 console.log(testlength.length)
+
+// 05 Replace
+
+var food = "Croissant is meh"
+
+console.log(food)
+
+food = food.replace("meh","so good")
+
+console.log(food)
