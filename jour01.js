@@ -13,3 +13,9 @@ console.log(test)
 var name = "Anthony"
 
 console.log("Nice to meet you" + " " + name)
+
+// 04 String Length
+
+var testlength = "I'm very long !"
+
+console.log(testlength.length)
