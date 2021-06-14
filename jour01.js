@@ -70,7 +70,13 @@ console.log(sub2);
 console.log(sub3);
 console.log(sub4);
 
-    // Part2
+  // Part2
+
+var guillemet = "My name is \"anthony\" \nand I have '27' years old"
+
+console.log(guillemet)
+
+    // Part3
 
 var changed = template
 // var searching = "a"
