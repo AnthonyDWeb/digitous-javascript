@@ -51,7 +51,30 @@ console.log(letter2);
 
 // 08 Template
 
-var age = 27
+var age = 27;
 var template = `I'm ${age} years old and I finish all the execices ! Now let's go with bonus`
+;
+console.log(template);
 
-console.log(template)
+//  BONUS
+
+    // part1
+var sub1 = template.substr(0,15);
+var sub2 = template.substr(15);
+var sub3 = template.substring(3,19);
+var sub4 = template.substring(19);
+
+
+console.log(sub1);
+console.log(sub2);
+console.log(sub3);
+console.log(sub4);
+
+    // Part2
+
+var changed = template
+// var searching = "a"
+var wanted = changed.replace(/a/g,"o");
+wanted = wanted.replace(/e/g, "a")
+
+console.log(wanted)
