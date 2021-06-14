@@ -7,3 +7,9 @@ console.log("Hello World")
 var test = "My name is Anthony"
 
 console.log(test)
+
+// 03 Concatenation
+
+var name = "Anthony"
+
+console.log("Nice to meet you" + " " + name)
