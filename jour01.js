@@ -48,3 +48,10 @@ var letter2 = word3.split(" ")
 
 console.log(letter);
 console.log(letter2);
+
+// 08 Template
+
+var age = 27
+var template = `I'm ${age} years old and I finish all the execices ! Now let's go with bonus`
+
+console.log(template)
