@@ -33,8 +33,8 @@ console.log(food);
 //  06 Up and Down
 
 var basic = "This is Cool";
-var basicUp = basic.toLocaleUpperCase();
-var basicDown = basic.toLocaleLowerCase();
+var basicUp = basic.toUpperCase();
+var basicDown = basic.toLowerCase();
 
 console.log(basic, "\n", basicUp , "\n", basicDown);
 

@@ -148,7 +148,7 @@
 
 //  BONUS 3
 
-var roundedNumber = 3.3;
+var roundedNumber = 4.8;
 
 if (roundedNumber - Math.floor(roundedNumber) > 0.5) {
     roundedNumber = Math.ceil(roundedNumber);
@@ -157,3 +157,11 @@ if (roundedNumber - Math.floor(roundedNumber) > 0.5) {
 }
 console.log(roundedNumber)
 
+
+if (roundedNumber - ((roundedNumber.toString()).substring(0)) > 0.5) {
+    roundedNumber = ((roundedNumber + 1).toString()).substring(0);
+    console.log( roundedNumber)
+} else { roundedNumber = (roundedNumber.toString()).substring(0);
+
+}
+console.log(roundedNumber)
