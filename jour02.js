@@ -97,3 +97,50 @@ console.log(securepassword())
 // }
 
 console.log(testCondition)
+
+//  BONUS 1
+
+var min = 1;
+var max = 6;
+var randomNumber = Math.floor(Math.random() * (max - min +1)) + min;
+if (randomNumber === 6) {
+    console.log( randomNumber + " " + "Yes, I win !")
+} else {
+    console.log( randomNumber + " " + "So, cloose !")
+}
+
+//  BONUS 2
+
+var month = "January"
+
+// function season() {
+    switch(month){
+        case "December": 
+        case "January": 
+        case "February":
+        console.log("Winter");
+        break;
+
+        case "March" :
+        case "April": 
+        case  "May":
+        console.log("Spring");
+        break;
+
+        case "June" :
+        case  "July":
+        case  "August":
+        console.log("Summer");
+        break;
+
+        case "September": 
+        case  "October" :
+        case  "November":
+        console.log("Autumn");
+        break;
+
+        default:"Fall";
+    }
+// }
+
+// month = June
