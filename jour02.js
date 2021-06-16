@@ -165,3 +165,6 @@ if (roundedNumber - ((roundedNumber.toString()).substring(0)) > 0.5) {
 
 }
 console.log(roundedNumber)
+
+// BONUS 4
+
