@@ -32,9 +32,9 @@ var cats = [cat,cat2];
 
 function checkIfEven(num) {
     if (num % 2 === 0) {
-        console.log("even");
+        // console.log("even");
     } else {
-        console.log("Odd");
+        // console.log("Odd");
     }
 }
 
@@ -48,11 +48,11 @@ checkIfEven(188860)
 
 function compare(num1,num2) {
     if (num1 > num2) {
-        console.log(`${num1} is bigger`)
+        // console.log(`${num1} is bigger`)
     } else if (num1 < num2) {
-        console.log(`${num2} is bigger`)
+        // console.log(`${num2} is bigger`)
     } else {
-        console.log("Both are the same")
+        // console.log("Both are the same")
     }
 } 
 
@@ -70,7 +70,7 @@ function addUp(num) {
     return numAdd;
 }
 
-console.log(`num egal ${addUp(12)}`)
+// console.log(`num egal ${addUp(12)}`)
 
 
 //  Exercice 6
@@ -87,6 +87,33 @@ function format(num){
     return time
 }
 
-console.log(format(3700))
-//  Bonus
+function format2(num){
+    var  hours2 = Math.floor(num / 3600);
+    var rest = num % 3600;
+    var minutes2 = Math.floor(rest/60);
+    var secondes2 = rest % 60
+    var time2 = `${hours2}:${minutes2}:${secondes2}`
+    return time2;
+}
+
+
+
+
+console.log(format2(3700))
+//  Bonus 
+
+function generatePassword(num){
+    var password = "";
+    for (i = 0; i <=6; i++){
+        var randomNum = 65 + Math.round(Math.random() * (26 - 1));
+        if (randomNum > 65 || randomNum < 90) {
+            password+= String.fromCharCode(randomNum);
+        } else {
+            i--;
+        }
+    }
+    return password;
+}
+
+console.log(generatePassword());
 //  Bonus
