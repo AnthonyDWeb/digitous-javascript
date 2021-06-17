@@ -50,8 +50,8 @@ var limit = 10;
 
 for (i = 0; i <= limit; i += 1) {
     total = total + i;
-    // console.log(i + " total = " + total);
 }
+console.log(i + " total = " + total);
 
 
 // 06 Sentence
