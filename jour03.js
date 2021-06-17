@@ -89,12 +89,9 @@ var i2 = 0;
 while (i2 < limit2) {
     i2++;
     total2 = total2 + i2;
-    console.log("i2 = " + i2 + " ->" + " total = " + total2);
+    // console.log("i2 = " + i2 + " ->" + " total = " + total2);
 }
 
 
 
 //  Bonus 3
-
-
-
