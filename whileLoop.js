@@ -18,7 +18,7 @@ var count = 0;
 
 while (dice != 6) {
     dice = Math.floor(Math.random() * (6 - 1 + 1) +1);
-    console.log(dice)
+    // console.log(dice)
     count++;
 } 
 
@@ -39,10 +39,19 @@ while (ussainBolt < 100 || tysonGay < 100) {
 
 } 
 if (ussainBolt < 100) {
-    console.log("Ussain Bolt vainqueur")
+    // console.log("Ussain Bolt vainqueur")
 } else {
-    console.log("Tyson Gay vainqueur")
+    // console.log("Tyson Gay vainqueur")
 }
-console.log(numberOfTry)
+// console.log(numberOfTry)
 
 // 04 Des boites 
+
+"console.log(box2) -> 5/5"
+"console.log(box1) -> 2/-8"
+
+// 05 Encore de Boites
+
+"console.log(box1 + i) -> "
+"console.log(i) -> 0"
+"console.log(box1) -> 7"
