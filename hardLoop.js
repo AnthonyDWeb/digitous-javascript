@@ -1,31 +1,31 @@
 // 01 Sum
 
-let numbers =[];
+let numbers = [];
 
-for(var i = 1; i <= 50; i++){
+for (var i = 1; i <= 50; i++) {
     var randomNumber = Math.round(Math.random() * 100);
     numbers.push(randomNumber);
-} 
+}
 
 let totalNumbers = 0;
-for (var i = 0; i < numbers.length; i++){
-     totalNumbers = totalNumbers + numbers[i] ;
+for (var i = 0; i < numbers.length; i++) {
+    totalNumbers = totalNumbers + numbers[i];
 }
 // console.log(totalNumbers);
 
 // 02 Max
 
-let numbers2 =[];
+let numbers2 = [];
 let max = 0;
-for(var i = 1; i <= 50; i++){
+for (var i = 1; i <= 50; i++) {
     var randomNumber = Math.round(Math.random() * (200 - 50) + 50);
     numbers2.push(randomNumber);
-} 
-for(var i = 0; i <= numbers2.length ; i++){
-    if (numbers2[i] > max){
+}
+for (var i = 0; i <= numbers2.length; i++) {
+    if (numbers2[i] > max) {
         max = numbers2[i];
-    } 
-    
+    }
+
 }
 
 // console.log(numbers2);
@@ -42,20 +42,20 @@ numbers2.slice(1);
 
 // 03 Unique
 
-let numbers3 =[];
+let numbers3 = [];
 let min2 = 75;
 let max2 = 100;
 let final = 0;
-for(var i = 1; i <= 50; i++){
+for (var i = 1; i <= 50; i++) {
     var randomNumber = Math.round(Math.random() * (200 - 50) + 50);
     numbers3.push(randomNumber);
-} 
-for(var i = 0; i <= numbers3.length ; i++){
-    if (numbers3[i] >= min2 && numbers3[i] <= max2){
+}
+for (var i = 0; i <= numbers3.length; i++) {
+    if (numbers3[i] >= min2 && numbers3[i] <= max2) {
         final = numbers3[i];
         break;
-    } 
-    
+    }
+
 }
 
 // console.log(numbers3);
@@ -63,10 +63,25 @@ for(var i = 0; i <= numbers3.length ; i++){
 
 // 04 Nested Loop
 
-let words =["hello", "goodbye", "yes", "no", "stop", "go go go"];
+console.log(" ");
+let words = ["hello", "goodbye", "yes", "no", "stop", "go go go"];
 console.log(words);
+console.log("------");
 
-for(var i = 0; i <= words.length; i++){
-    var words2 = words[i].split(words.length);
-    console.log(words2);
+var numberOfO = 0;
+words = words.join(" ");
+console.log(words);
+console.log("------");
+
+words = words.split("");
+console.log(words);
+console.log("------");
+
+for (var i = 0; i <= words.length; i++) {
+
+    if (words[i] === "o"){
+
+        numberOfO = numberOfO +1;
+    }
 }
+console.log(numberOfO);
