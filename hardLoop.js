@@ -67,7 +67,6 @@ let words =["hello", "goodbye", "yes", "no", "stop", "go go go"];
 console.log(words);
 
 for(var i = 0; i <= words.length; i++){
-    var words2 = words[i].split();
+    var words2 = words[i].split(words.length);
     console.log(words2);
-
 }
