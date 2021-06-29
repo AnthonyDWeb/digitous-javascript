@@ -32,7 +32,7 @@ function formatYears(string){
 //  03 Validator
 
 
-var prompt = require("prompt");
+let prompt = require("prompt");
 
 var properties = [
   {

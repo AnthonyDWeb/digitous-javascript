@@ -36,7 +36,6 @@ var shortName = longName.map(function (name) {
 	return  {
 		name: name.firstName + " " + name.lastName
 	}
-		
 });
 // console.log(shortName);
 
@@ -85,8 +84,5 @@ let cake = [
 	},
 ]
 
-// console.log(cake.map(list => list).filter(function (sold){
-// 	if (sold.flavor === "chocolate"){
-// 		  sold.status = "sold out !"
-// 	} return sold;
-// }))
+cake.filter(cake => cake.flavor === "chocolate").map(sold => sold.status = "sold out !");
+console.log(cake)
